@@ -98,7 +98,7 @@ export default {
         },
 
         addMarkerListToMap() {
-            console.log('addMarkerListToMap: ', this.markers);
+            // console.log('addMarkerListToMap: ', this.markers);
             this.markers.forEach((marker) => {
                 marker.setMap(this.map);
             });
